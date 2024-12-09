@@ -80,17 +80,130 @@ h1 {
     align-self: stretch;
 }
 
-#more {
+button {
+    padding: 12px 32px;
     color: #cea201;
-    font-family: lato;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    background-color: white;
     border: 2px solid #CEA201;
-    padding: 12px 32px;
-    justify-content: center;
-    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 74px;
+}
+
+#Creatures {
+    width: 500px;
+    height: 2362px;
+    display: inline;
+
+
+}
+
+#magic {
+    color: #000;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#magic_p {
+    color: #414651;
+    text-align: center;
+    font-family: "lato";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+h3 {
+    color: #00c76e;
+    text-align: center;
+    font-family: "lato";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#works {
+    color: #ff5da3;
+    font-family: "lato";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 130.5px;
+
+}
+
+
+#butterfly {
+    width: 200px;
+    height: 200px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    margin-top: 24px;
+}
+
+#ul {
+    color: #414651;
+    font-family: "lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+}
+
+#see {
+    color: #c27512;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "lato";
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 10px;
+    align-self: stretch;
+    border: 6px solid #C11574;
+    background: #FFDEF0;
+    margin-bottom: 24px;
+    margin-top: 24px;
+
+}
+
+#black_img {
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
+}
+
+#fish {
+    width: 298.012px;
+    height: 396px;
+    margin-bottom: 24px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+a {
+    color: #00d4bc;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
 
 }
